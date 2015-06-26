@@ -23,7 +23,10 @@ public class DialingaNumberTest {
 	public void dialNumber() throws IOException, InterruptedException{
 		AppiumserverTest.stopAppiumServer();
 		AppiumserverTest.startAppiumServer();
-		
+		/*
+		 * New comments added
+		 * 
+		 */
 		 DesiredCapabilities capabilities = new DesiredCapabilities();
 	        capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
 	        capabilities.setCapability("device", "Android");
